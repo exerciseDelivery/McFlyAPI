@@ -1,0 +1,31 @@
+{
+  "name": "mcflyapi",
+  "version": "1.0.0",
+  "description": "McFly API",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/note.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exerciseDelivery/McFlyAPI.git"
+  },
+  "author": "exerciseDelivery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exerciseDelivery/McFlyAPI/issues"
+  },
+  "homepage": "https://github.com/exerciseDelivery/McFlyAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.0.5",
+    "nodemon": "^1.17.2"
+  }
+}
